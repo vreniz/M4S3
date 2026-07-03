@@ -61,7 +61,7 @@ Se abre una ventana → **Install** → esperar a que termine.
 
 ### 4. Instalar el motor de MongoDB
 ```bash
-brew tap mongodb/brew
+brew tap mongodb/brew -> este no lo use
 brew install mongodb-community
 ```
 
@@ -130,6 +130,8 @@ También puedes usar la pestaña **mongosh** que aparece arriba tras conectar.
 
 > ⚠️ **Importante:** pega un comando a la vez. Si pegas dos comandos juntos sin
 > separación, mongosh puede dar `SyntaxError: Missing semicolon`.
+
+>**Nota:** Se pueden crear las colecciones con el signo +  luego de que ya exista el streamhub por el comando (`use streamhub`)
 
 ### Opción B — Cargar el archivo completo (terminal externa)
 Si tienes mongosh en la terminal del sistema, desde la carpeta del proyecto:
@@ -214,5 +216,5 @@ Cada inserción correcta responde con `acknowledged: true`.
 
 ---
 
-**Autor:** Vane
+**Autor:** Vanessa Fontalvo Reniz
 **Módulo:** M4S3 — Gestión de contenido y usuarios en MongoDB
