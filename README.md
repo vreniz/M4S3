@@ -15,8 +15,8 @@ instalar MongoDB, conectarse y ejecutar el script `streamhub.js`.
 |---|---|
 | `streamhub.js` | Todos los comandos de MongoDB (inserciones, consultas, updates/deletes, índices y agregaciones). |
 | `README.md` | Esta guía de instalación y uso. |
-| `/capturas` | (Opcional) Evidencias tomadas desde MongoDB Compass. |
-[screenshots](screenshot.md)
+| `/mongoscreen` | [screenshots](screenshot.md) (Opcional) Evidencias de capturas tomadas desde MongoDB Compass. |
+
 
 ---
 
