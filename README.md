@@ -45,16 +45,16 @@ Comprobar primero:
 ```bash
 brew --version
 ```
-Si dice "command not found", instálalo:
+Si dice "command not found", instalarlo:
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
-> Te pedirá la contraseña del Mac (al escribirla no se ve, es normal). Si al
-> final te pide copiar una línea con `eval "$(/usr/local/bin/brew shellenv)"`,
-> pégala, dale Enter y reinicia la Terminal.
+> Pedirá la contraseña de la Mac (al escribirla no se ve, es normal). Si al
+> final pide copiar una línea con `eval "$(/usr/local/bin/brew shellenv)"`,
+> pegar, dar Enter y reiniciar la Terminal.
 
 ### 3. Instalar las Command Line Tools de Xcode
-MongoDB las necesita para compilar. Si no las tienes:
+MongoDB las necesita para compilar. Si no se tienen ejecutar este comando:
 ```bash
 xcode-select --install
 ```
@@ -78,8 +78,8 @@ Debe aparecer `mongodb-community` con estado **started**.
 > Para apagarlo cuando quieras: `brew services stop mongodb-community`
 
 ### 6. Instalar MongoDB Compass (interfaz visual)
-Descárgalo desde el sitio oficial (busca en Google: `MongoDB Compass download`),
-abre el `.dmg` y arrástralo a Aplicaciones.
+Descargar desde el sitio oficial (buscar en Google: `MongoDB Compass download`),
+abrir el `.dmg` y arrástralo a Aplicaciones.
 
 ---
 
@@ -88,7 +88,7 @@ abre el `.dmg` y arrástralo a Aplicaciones.
 1. Buscar en Google: `MongoDB Community Server download` → descargar el `.msi`.
 2. Instalar → elegir **Complete** → dejar marcado **"Install MongoD as a Service"**
    (así arranca solo con el sistema).
-3. En el mismo instalador se ofrece Compass; puedes instalarlo ahí.
+3. En el mismo instalador se ofrece Compass; se puede instalar ahí.
 4. mongosh viene incluido dentro de Compass.
 
 ---
