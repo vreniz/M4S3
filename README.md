@@ -16,6 +16,7 @@ instalar MongoDB, conectarse y ejecutar el script `streamhub.js`.
 | `streamhub.js` | Todos los comandos de MongoDB (inserciones, consultas, updates/deletes, índices y agregaciones). |
 | `README.md` | Esta guía de instalación y uso. |
 | `/capturas` | (Opcional) Evidencias tomadas desde MongoDB Compass. |
+[screenshots](screenshot.md)
 
 ---
 
@@ -61,7 +62,6 @@ Se abre una ventana → **Install** → esperar a que termine.
 
 ### 4. Instalar el motor de MongoDB
 ```bash
-brew tap mongodb/brew -> este no lo use
 brew install mongodb-community
 ```
 
@@ -116,7 +116,7 @@ abre el `.dmg` y arrástralo a Aplicaciones.
 2. En la parte **inferior** de la ventana, clic en la barra **`>_MONGOSH`**.
 3. Se abre una consola negra donde se escriben los comandos.
 
-También puedes usar la pestaña **mongosh** que aparece arriba tras conectar.
+También se puede usar la pestaña **mongosh** que aparece arriba tras conectar.
 
 ---
 
@@ -206,13 +206,6 @@ Cada inserción correcta responde con `acknowledged: true`.
 | `mongodb-community cannot be installed from bottle` | Faltan las Command Line Tools → `xcode-select --install`. |
 | No aparece la base `streamhub` | Se crea al insertar el primer documento; corre una inserción. |
 
----
-
-## 📦 ENTREGA
-
-1. Colocar `streamhub.js` + `README.md` (+ carpeta `/capturas` opcional) en una carpeta.
-2. Comprimir la carpeta en **.zip**.
-3. Subir el `.zip` a **Moodle** antes de la fecha de entrega.
 
 ---
 
